@@ -15,6 +15,7 @@
 }
 .feed {
   background-color: white;
+  width: 500px;
 }
 .suggested-box {
   background-color: blue;
