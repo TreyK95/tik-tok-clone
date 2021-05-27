@@ -22,7 +22,7 @@ exports.handler = async function (event, context, callback) {
       statusCode: 200,
     };
   } catch (e) {
-    console.log(e);
+    console.log("response", response.data);
     return {
       statusCode: 500,
       body: JSON.stringify(e),
